@@ -12,7 +12,12 @@ Enviar sigusr1:
 ./sigusr1.sh
 ```
 
-Hacer sed y luego enviar sigusr1:
+Editar con sed y luego enviar sigusr1:
 ```
 ./sed-sigusr1.sh
+```
+
+Editar con nano y luego enviar sigusr1:
+```
+./nano-sigusr1.sh
 ```
