@@ -36,7 +36,7 @@ DEPENDENCIES=$(foreach THERE, $(LIBRARY_PATHS), $(patsubst ./%,$(THERE)/%,$(shel
 all: $(BINARY)
 
 clean:
-	rm -rf $(BINDIR) $(OBJDIR)
+	rm -rf $(BINDIR) $(OBJDIR) *.txt
 
 release: CFLAGS = -Wall -DNDEBUG
 release: clean
