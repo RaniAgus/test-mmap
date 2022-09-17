@@ -63,7 +63,7 @@ dkms.conf
 /.vscode/
 
 # Other
-/bin/
-/obj/
+/cmake-build-*/
+/build/
 *.log
 *.txt
