@@ -3,8 +3,9 @@
 ```
 git clone https://github.com/RaniAgus/test-mmap/
 cd test-mmap
+cmake .
 make
-./bin/test-mmap
+./test-mmap
 ```
 
 Enviar sigusr1:
